@@ -2,7 +2,7 @@
 #include <QDebug>
 #include <algorithm>
 #include <limits>
-
+// TODO King can not be beaten. Need to fix
 ChessAI::ChessAI(ChessBoard *board, QObject *parent)
     : QObject(parent), chessBoard(board)
 {
